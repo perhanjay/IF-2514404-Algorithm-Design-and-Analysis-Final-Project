@@ -6,7 +6,16 @@ Persyaratan:
 - Paket Python: diinstal menggunakan `pip` (lihat `requirements.txt`).
 - Dependensi sistem: `tk`/`tkinter`
 
-Langkah cepat (virtual environment — direkomendasikan):
+Clone terlebih dahulu repository ini:
+```bash
+git clone https://github.com/perhanjay/-IF-2514404-Algorithm-Design-and-Analysis-Final-Project
+```
+Masuk ke direktori:
+```bash
+cd IF-2514404-Algorithm-Design-and-Analysis-Final-Project/
+```
+
+Menggunakan Virtual Env (Lebih baik pakai ini):
 
 ```bash
 # Buat dan aktifkan virtual environment
@@ -20,7 +29,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-Jika tidak ingin menggunakan virtualenv, cukup jalankan:
+Eksekusi langsung (Use With Caution):
 
 ```bash
 pip install -r requirements.txt
